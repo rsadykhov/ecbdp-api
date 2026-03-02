@@ -1,0 +1,19 @@
+[package]
+name = "ecbdp-api"
+version = "0.1.0"
+edition = "2024"
+description = "Wrapper for European Central Bank (ECB) Data Portal"
+license = "MIT or APache-2.0"
+homepage = "https://github.com/rsadykhov/ecbdp-api"
+repository = "https://github.com/rsadykhov/ecbdp-api"
+documentation = "https://docs.rs/ecbdp-api"
+keywords = ["european-central-bank", "data-portal", "api", "data", "european"]
+categories = ["api-bindings", "data-structures", "finance", "science"]
+
+[dependencies]
+chrono = { version = "0.4", features = ["alloc"] } # MIT or Apache 2.0
+percent-encoding = { version = "2.3" } # MIT or Apache 2.0
+serde = { version = "1.0", features = ["derive"] } # MIT or Apache 2.0
+serde_json = { version = "1.0" } # MIT or Apache 2.0
+reqwest = { version = "0.13", features = ["json"] } # MIT or Apache 2.0
+tokio = { version = "1.49", features = ["full"] } # MIT
