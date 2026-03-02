@@ -7,7 +7,7 @@ license = "MIT or Apache-2.0"
 homepage = "https://github.com/rsadykhov/ecbdp-api"
 repository = "https://github.com/rsadykhov/ecbdp-api"
 documentation = "https://docs.rs/ecbdp-api"
-keywords = ["european-central-bank", "data-portal", "api", "data", "european"]
+keywords = ["ecb", "data-portal", "api", "data", "european"]
 categories = ["api-bindings", "data-structures", "finance", "science"]
 
 [dependencies]
